@@ -101,3 +101,20 @@ deploy:
   type: git
   repo: git@github.com:s-leeq/s-leeq.github.io.git
   branch: master
+
+# hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  format: html
+
+# hexo-generate-feed
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+    content:
+    content_limit: 140
+    content_limit_delim: ' '
+    order_by: -date

@@ -128,8 +128,7 @@ gitalk:
 
 # GitHub Ribbons-封面右上角的forkme
 github: 
-  enable: false
-  # (关闭请设置为false)
+  enable: false # (关闭请设置为false)
   url: https://github.com/s-leeq/
 
 # 网易云音乐插件
