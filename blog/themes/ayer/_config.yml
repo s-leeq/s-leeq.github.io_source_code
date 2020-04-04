@@ -4,7 +4,7 @@ menu:
   归档: /archives
   分类: /categories
   标签: /tags
-  旅行: /tags/旅行/
+  # 旅行: /tags/旅行/
   摄影: http://shenyu-vip.lofter.com
   关于我: /2019/about
 
@@ -107,13 +107,13 @@ layout:
 # 启用Valine必须先创建leancloud应用， 获取 id|key 填入即可
 leancloud:  
   enable: true
-  app_id: #
-  app_key: #
+  app_id: r0vCTJV4eGXDYNpS01Y0AFAG-gzGzoHsz
+  app_key: XRASF6UKTb0Jg4fv59pBKt8N
 # Valine配置
 valine:
   enable: true # 是否启用
   verify: false # 是否启用防垃圾验证
-  notify: false # 是否开启邮件提醒(https://valine.js.org/notify.html)
+  notify: true # 是否开启邮件提醒(https://valine.js.org/notify.html)
   avatar: mp # 头像样式(https://valine.js.org/avatar.html)
   placeholder: 给我的文章加点评论吧~ # placeholder
 
