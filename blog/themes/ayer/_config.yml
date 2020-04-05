@@ -133,7 +133,7 @@ github:
 
 # 网易云音乐插件
 music:
-  enable: true
+  enable: false
   # 播放器尺寸类型(1：小尺寸、2：大尺寸)
   type: 1 
   id: 31789010  # 网易云分享的音乐ID(更换音乐请更改此配置项)
@@ -141,15 +141,15 @@ music:
 
 # 访问量统计(不蒜子)
 busuanzi:
-  enable: true
+  enable: false
 
 # 友盟cnzz统计(url填js代码src链接)
 cnzz:
-  enable: true
+  enable: false
   url: https://s9.cnzz.com/z_stat.php?id=1278069914&web_id=1278069914
 
 # Google Analytics
-google_analytics: ''
+google_analytics: 'UA-162794155-1'
 # 百度统计
 baidu_analytics: ''
 

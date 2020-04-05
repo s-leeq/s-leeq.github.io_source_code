@@ -25,6 +25,30 @@
     <%- partial('_partial/music') %>
     <% } %>
   </div>
+  <!-- APlayer -->
+    <!-- 引用依赖 -->
+    <link rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+
+    <!-- 我使用的APlayer本体 -->
+    <div class="aplayer" 
+      data-id="4128805" 
+      data-server="netease" 
+      data-type="song" 
+      data-fixed="true" 
+      data-autoplay="false" 
+      data-volume="0.55" 
+      data-theme="#cc543a" 
+      data-preload="auto" >
+    </div>
+    <!-- require JQuery -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <!-- require pjax -->
+      <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/index.min.js"></script>
+    
+  <!--如果将本体放在body里面导致页面加载出现问题，请尝试放到body体后面-->
 </body>
 
 </html>
